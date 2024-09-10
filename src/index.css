@@ -1,0 +1,143 @@
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar {
+  margin: 1rem 0;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.follow a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.follow i {
+  font-size: 1.2rem;
+}
+.home {
+  background: #f4f4f4;
+  padding: 5rem 1rem;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn {
+  background: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+.about {
+  background: #fff;
+  padding: 5rem 1rem;
+}
+
+.row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box {
+  margin-top: 1rem;
+}
+
+.box a {
+  color: #333;
+  text-decoration: none;
+}
+.service {
+  background: #f4f4f4;
+  padding: 5rem 1rem;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 30%;
+  text-align: center;
+}
+
+.box i {
+  font-size: 2rem;
+}
+.project {
+  background: #fff;
+  padding: 5rem 1rem;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box {
+  margin-bottom: 2rem;
+}
+.contact {
+  background: #f4f4f4;
+  padding: 5rem 1rem;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box, .box1 {
+  width: 45%;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}

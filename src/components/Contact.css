@@ -1,0 +1,36 @@
+.contact {
+    background: #f4f4f4;
+    padding: 5rem 1rem;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .box, .box1 {
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .box1 form input, .box1 form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .box1 form button {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

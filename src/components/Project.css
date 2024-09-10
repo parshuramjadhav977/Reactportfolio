@@ -1,0 +1,26 @@
+.project {
+    background: #fff;    
+
+    padding: 5rem 1rem;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box {
+    background: #f4f4f4;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .box a {
+    color: #333;
+    text-decoration: underline;
+  }
+  

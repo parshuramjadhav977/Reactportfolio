@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #f4f4f4; /* Light background color for content */
+  padding: 2rem; /* General padding for main content */
+}
+
+header, footer {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* Home Section */
+.home {
+  background: #007bff; /* Background color */
+  color: #fff; /* Text color */
+  text-align: center;
+  padding: 4rem 1rem; /* Padding for top and bottom */
+}
+
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+}
+
+.home .title {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.home .description {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.home .btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: #fff; /* Button background color */
+  color: #007bff; /* Button text color */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.home .btn:hover {
+  background: #e0e0e0;
+}
+
+/* About, Service, Project, Contact Sections */
+section {
+  background: #fff;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+section h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+section .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add specific styles for About, Service, Project, Contact sections if needed */

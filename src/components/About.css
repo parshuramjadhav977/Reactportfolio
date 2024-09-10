@@ -1,0 +1,31 @@
+.about {
+    background: #fff;
+    padding: 5rem 1rem;
+  }
+  
+  .row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .image img {
+    max-width: 150px;
+    border-radius: 50%;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .box {
+    margin-top: 1rem;
+  }
+  
+  .box a {
+    color: #333;
+    text-decoration: none;
+  }
+  
